@@ -1,0 +1,155 @@
+/*Portrait*/
+/* Smaller mobile */
+@media screen and (min-width: 300px) and (max-width: 376px) and (orientation: portrait) {
+  .container {
+  	padding-left: 5%;
+    padding-right: 5%;
+  }
+  .break {display: block};
+}
+/* Larger than phablet */
+@media screen and (max-width: 550px) and (orientation: portrait) {
+	img.logo { max-width: 10em; }
+}
+
+
+/* Larger than tablet */
+@media screen and (min-width: 551px) and (max-width: 768px) and (orientation: portrait) {
+	section {
+		display: block;
+	}
+}
+
+/* Larger than desktop */
+@media screen and (min-width: 1000px){
+	section {
+		display: none;
+	}
+}
+/*Landscape*/
+/*Iphone 5 Landscape*/
+@media screen and (min-width: 300px) and (max-width: 568px) and (orientation: landscape) {
+  img.logo { max-width: 10em; }
+	h1 { font-size: 4.0rem;line-height: 1.2; }
+	h2 { font-size: 3.3rem; margin-bottom: 2%;}
+	h5 { font-size: 1.4rem; }
+  .break { display: inline; }
+  .container {
+  	padding-left: 0;
+  	padding-right: 0;
+  	padding: 3% 0 0 0;
+  	width: 90%;
+  }
+  .extra-large { font-size: 5.2rem; }
+  .pushdown { margin-top: 10%; }
+  /*BOX 1*/
+  .top-button {
+    width: 9%;
+    top: 90%;
+	}
+  .top-bar { margin: 4% 0%; }
+  /*BOX 2*/
+  .landscape-text-box2 {
+    position: relative;
+    padding: 2% 0% 0% 65%;
+	}
+  .landscape-svg-box2 { top: 13%; }
+  /*BOX 3*/
+  .ghost { width: 45%; }
+  /*BOX 4*/
+  .corporate {
+    width: 20%;
+    margin: 0% auto;
+	}
+	/*BOX 5*/
+	.laptop {
+		width: 30%;
+		margin: 2% auto;
+	}
+	/*BOX 6*/
+	.green-box {
+		width: 35%;
+    left: 50%;
+	}
+	.landscape-text-box6 {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+	}
+	/*BOX 7*/
+	.landscape-text-box7 {
+		margin-bottom: 0;
+    font-size: 4rem;
+	}
+	/*BOX 8, 9, 10*/
+	.landscape-text-boxs {
+    font-size: 2.2rem;
+	}
+	/*BOX 11*/
+	.box {
+		margin: 3% 26%;
+    padding-top: 1%;
+	}
+}
+@media screen and (min-width: 667px) and (max-width: 736px) and (orientation: landscape) {
+	img.logo {
+		max-width: 12em;
+	}
+	h5 { font-size: 1.4rem; }
+	.pushdown { margin-top: 10%; }
+	.container {
+  	padding-left: 0;
+  	padding-right: 0;
+  	padding: 5% 0 0 0;
+  	width: 90%;
+  }
+  /*BOX 1*/
+  .top-button {
+    width: 9%;
+    top: 90%;
+	}
+  .top-bar { margin: 4% 0%; }
+  /*BOX 2*/
+  .landscape-text-box2 {
+    position: relative;
+    padding-left: 65%;
+	}
+  .landscape-svg-box2 { top: 13%; }
+  /*BOX 3*/
+  .ghost { width: 60%; }
+  /*BOX 4*/
+  .corporate {
+    width: 20%;
+    margin: 0% auto;
+	}
+	/*BOX 5*/
+	.laptop {
+		width: 30%;
+		margin: 2% auto;
+	}
+	/*BOX 6*/
+	.green-box {
+		width: 35%;
+    left: 50%;
+	}
+	.landscape-text-box6 {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+	}
+	/*BOX 7*/
+	.landscape-text-box7 {
+		margin-bottom: 0;
+    font-size: 4.5rem;
+	}
+}

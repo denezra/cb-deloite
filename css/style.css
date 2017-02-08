@@ -1,0 +1,213 @@
+/*TAGS*/
+body {
+	background-color: #ffffff;
+  letter-spacing: 0.1em;
+}
+section {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+section > div {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+svg { width: 100%; }
+/*COLORS*/ 
+.green-light-bg { background-color: #38dd83; }
+.green-dark-bg { background-color: #26aa64; }
+.purple-dark-bg { background-color: #272342; }
+.white-bg { background-color: #ffffff; }
+
+.green-light-text { color: #38dd83; }
+.green-dark-text { color: #26aa64; }
+.purple-dark-text { color: #272342; }
+.white-text { color: #ffffff; }
+/*FONTS*/ 
+.poppins { font-family: 'Poppins', sans-serif; }
+.playfair { font-family: 'Playfair Display', serif; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.semi-bold { font-weight: 600; }
+.bold { font-weight: 700; }
+.black { font-weight: 900; }
+/*FONT SIZE*/
+h1 { font-size: 5.0rem;}
+h2 { margin-bottom: 10%; }
+h3 { letter-spacing: 0.05rem; }
+h4 { font-size: 2.5rem;}
+h6 { font-size: 1.3rem; letter-spacing: 0.1em;}
+.large { font-size: 6rem; }
+.extra-large { font-size: 7.2rem; }
+/*TEXT ALIGNMENT*/
+.text-align-left { text-align: left; }
+.text-align-right { text-align: right; }
+.text-align-center { text-align: center; }
+/*OBJECTS*/
+.desktop {
+	background-color: cadetblue;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.container { padding: 10% 0; }
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.all-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.vertical-center {
+  position: absolute;
+  padding-left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.horizontal-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.divisions {
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax img {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+
+.top {
+	height: 93%;	
+  z-index: 1;
+  background-color: #141414;
+}
+
+.top > div {
+	position: absolute;
+}
+
+.top > div:nth-child(2) {
+	width: 100%;
+}
+
+.top-bg {overflow: hidden;width: 100%;height: 100%;}
+
+.top-bar {
+	width: 11%;
+	margin: 10% 0%;
+}
+.top-button {
+	width: 15%; 
+	top: 95%;
+}
+
+.push-left { margin-left: 5%; }
+
+.push-right { margin-right: 5%; }
+
+.column-container > div {
+	display: inline-block;
+	width: 35%;
+}
+
+.column-container > div:first-child { float: right; }
+
+.img-container.hotel {
+	background-image: url('../images/hotel.jpg');
+}
+.img-container.software {
+	background-image: url('../images/software.jpg');
+}
+.img-container.shop {
+	background-image: url('../images/shop.jpg');
+}
+.img-container {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 53%;
+}
+
+.text-container {
+	width: 100%;
+	height: 47%;
+}
+.text-container.software h3, .text-container.software h6 { padding-right: 5%; }
+
+.text-container h3 { margin-bottom: 0.8rem; }
+
+.text-container div { position: relative; }
+
+.box {
+  margin: 5% 11%;
+  padding-top: 2%;
+}
+
+.green-box-one{
+  margin: 3% 41%;
+}
+
+.green-box-two {
+  margin: 0% 10%;
+  padding-top: 2%;
+  line-height: 1.3;
+}
+
+.up-layer-two {
+	z-index: 2;
+}
+
+/*SVG OBJECTS*/
+.ghost { width: 80%; }
+.corporate, .laptop {width: 40%;margin: 5% auto;}
+.green-box {width: 80%;left: 55%;}
+.hotel .all-center, .software .all-center, .shop .all-center {
+	width: 30%;
+	position: relative;
+}
